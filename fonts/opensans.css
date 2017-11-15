@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('opensans-regular-webfont.eot');
+  src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('opensans-regular-webfont.woff2') format('woff2'),
+       url('opensans-regular-webfont.woff') format('woff'),
+       url('opensans-regular-webfont.ttf') format('truetype'),
+       url('opensans-regular-webfont.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: bold;
+  font-style: normal;
+  src: url('bold/opensans-bold-webfont.eot');
+  src: url('bold/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('bold/opensans-bold-webfont.woff2') format('woff2'),
+       url('bold/opensans-bold-webfont.woff') format('woff'),
+       url('bold/opensans-bold-webfont.ttf') format('truetype'),
+       url('bold/opensans-bold-webfont.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-style: normal;
+  src: url('light/opensans-light-webfont.eot');
+  src: url('light/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('light/opensans-light-webfont.woff2') format('woff2'),
+       url('light/opensans-light-webfont.woff') format('woff'),
+       url('light/opensans-light-webfont.ttf') format('truetype'),
+       url('light/opensans-light-webfont.svg') format('svg');
+}

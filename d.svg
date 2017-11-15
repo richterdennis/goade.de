@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744 810" overflow="visible">
+  <g id="dennify.svg" transform="matrix(5.0625,0,0,5.0625,-572.7171,-1538.5939)">
+    <defs>
+      <filter id="shadow" x="-20%" y="-20%" width="200%" height="200%">
+        <feOffset result="offOut" in="SourceGraphic" dx="0" dy="0" />
+        <feColorMatrix result="matrixOut" in="offOut" type="matrix"
+        values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" />
+        <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+        <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+      </filter>
+    </defs>
+    <path filter="url(#shadow)"
+       d="m 239.92578,383.47837 q 0,31.72851 -18.10547,48.60351 -18.01758,16.875 -52.11914,16.875 l -36.38672,0 0,-128.49609 40.3418,0 q 31.46484,0 48.86719,16.61133 17.40234,16.61132 17.40234,46.40625 z m -28.30078,0.70312 q 0,-41.39648 -36.5625,-41.39648 l -14.50195,0 0,83.67187 11.68945,0 q 39.375,0 39.375,-42.27539 z" />
+  </g>
+</svg>
