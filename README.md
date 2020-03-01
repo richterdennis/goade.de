@@ -1,1 +1,1 @@
-# goade.de
+# dennisrichter.io
